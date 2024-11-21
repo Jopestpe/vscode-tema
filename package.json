@@ -1,0 +1,28 @@
+{
+  "name": "jopestpe-tema",
+  "displayName": "Jopestpe Tema",
+  "description": "Tema de cores escuro para visual studio code",
+  "publisher": "Jopestpe",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/icone.png", 
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jopestpe Tema",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Jopestpe-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jopestpe/jopestpe_tema_vscode.git"
+  }
+}

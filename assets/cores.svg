@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="64" viewBox="0 0 288 64">
+    <path fill="#fffadf" fill-rule="evenodd" d="M0 0h32v32H0z" />
+    <path fill="#111" fill-rule="evenodd" d="M0 32h32v32H0z" />
+    <path fill="#333" fill-rule="evenodd" d="M32 0h32v32H32z" />
+    <path fill="#222" fill-rule="evenodd" d="M32 32h32v32H32z" />
+    <path fill="#cb3333" fill-rule="evenodd" d="M64 32h32v32H64z" />
+    <path fill="#63c259" fill-rule="evenodd" d="M96 0h32v32H96z" />
+    <path fill="#218533" fill-rule="evenodd" d="M96 32h32v32H96z" />
+    <path fill="#ff7084" fill-rule="evenodd" d="M64 0h32v32H64z" />
+    <path fill="#efc72a" fill-rule="evenodd" d="M128 32h32v32H128z" />
+    <path fill="#57b2ff" fill-rule="evenodd" d="M160 0h32v32H160z" />
+    <path fill="#257fe4" fill-rule="evenodd" d="M160 32h32v32H160z" />
+    <path fill="#b329c7" fill-rule="evenodd" d="M192 32h32v32H192z" />
+    <path fill="#66e5ff" fill-rule="evenodd" d="M224 0h32v32H224z" />
+    <path fill="#42ffc2" fill-rule="evenodd" d="M224 32h32v32H224z" />
+    <path fill="#fc8bca" fill-rule="evenodd" d="M192 0h32v32H192z" />
+    <path fill="#fff" fill-rule="evenodd" d="M256 0h32v32H256z" />
+    <path fill="#cecece" fill-rule="evenodd" d="M256 32h32v32H256z" />
+    <path fill="#ffeda1" fill-rule="evenodd" d="M128 0h32v32H128z" />
+</svg>
