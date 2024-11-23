@@ -1,3 +1,3 @@
 # Jopestpe Tema
 
-<img src="https://raw.githubusercontent.com/Jopestpe/vscode-tema/refs/heads/main/assets/cores.svg?token=GHSAT0AAAAAACWKBFYOAPYHIZBWVA5F6272Z2BI3PQ" width="288" height="100">
+![cores](https://github.com/user-attachments/assets/d4d9ab65-8211-408e-9a33-4629b78a4d86)
