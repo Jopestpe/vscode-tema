@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jopestpe Tema - VS Code</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+            color: #f0f6fc;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .pagina {
+            max-width: 800px;
+            text-align: center;
+            background: rgba(22, 27, 34, 0.8);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(240, 246, 252, 0.1);
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #58a6ff, #79c0ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .titulo {
+            font-size: 1.2rem;
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+
+        .imagem {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 32px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            margin-bottom: 30px;
+            border: 1px solid rgba(240, 246, 252, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .screenshot:hover {
+            transform: scale(1.02);
+        }
+
+        .baixar_botao {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(45deg, #238636, #2ea043);
+            color: white;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(35, 134, 54, 0.3);
+        }
+
+        .baixar_botao:hover {
+            background: linear-gradient(45deg, #2ea043, #238636);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(35, 134, 54, 0.4);
+        }
+
+        .baixar_botao:active {
+            transform: translateY(0);
+        }
+
+        .baixar_icone {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .Comandos {
+            margin-top: 40px;
+            text-align: left;
+            background: rgba(13, 17, 23, 0.6);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid rgba(240, 246, 252, 0.1);
+        }
+
+        .Comandos h3 {
+            color: #58a6ff;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+
+        .Comandos p {
+            color: #e6edf3;
+            line-height: 1.6;
+        }
+
+        .instalar {
+            text-align: left;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(88, 166, 255, 0.1);
+            border-radius: 8px;
+            border-left: 4px solid #58a6ff;
+        }
+
+        .instalar h4 {
+            color: #58a6ff;
+            margin-bottom: 10px;
+        }
+
+        .instalar p {
+            color: #e6edf3;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .pagina {
+                padding: 20px;
+            }
+            
+            .baixar_botao {
+                padding: 14px 24px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pagina">
+        <h1>Jopestpe Tema</h1>
+        <p class="titulo">Tema escuro para VS Code / VS Codium + Layout</p>
+        
+        <img src="./assets/screenshot_0.0.2.png" 
+             alt="Screenshot do Jopestpe Tema" 
+             class="imagem">
+        
+        <a href="https://github.com/Jopestpe/vscode-tema/releases/download/0.0.2/jopestpe-tema-0.0.2.vsix" 
+           class="baixar_botao" 
+           download>
+            <svg class="baixar_botao_icone" viewBox="0 0 24 24">
+                <path fill="white" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+            </svg>
+            Download v0.0.2
+        </a>
+
+        <div class="instalar">
+            <h4>📦 Como instalar:</h4>
+            <p>
+                1. Baixe o arquivo .vsix clicando no botão acima<br>
+                2. Abra o VS Code<br>
+                3. Pressione <strong>Ctrl+Shift+P</strong> (ou Cmd+Shift+P no Mac)<br>
+                4. Digite "Extensions: Install from VSIX"<br>
+                5. Selecione o arquivo baixado<br>
+                6. Ative o tema: <strong>Ctrl+K Ctrl+T</strong> → "Jopestpe Tema"
+            </p>
+        </div>
+
+        <div class="Comandos">
+            <h3>🤖 Comandos</h3>
+            <h4>Ativar layout</h4>
+            <p>
+                1. Pressione <strong>Ctrl+Shift+P</strong> (ou Cmd+Shift+P no Mac)<br>
+                2. Digite "Ativar Layout Jopestpe"<br>
+            </p>
+            <h4>Desativar layout</h4>
+            <p>
+                1. Pressione <strong>Ctrl+Shift+P</strong> (ou Cmd+Shift+P no Mac)<br>
+                2. Digite "Desativar Layout Jopestpe"<br>
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>
